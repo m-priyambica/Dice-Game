@@ -4,5 +4,9 @@ import react from '@vitejs/plugin-react';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Dice-Game/",
+  base: '/Dice-Game/',
+   build: {
+    outDir: 'dist'
+  },
+  assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg']
 });
