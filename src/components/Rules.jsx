@@ -10,7 +10,7 @@ const Rules = () => {
          <p>Click on dice  image  </p>
          <p>
             after click on dice  if selected  number is equal  to dice dice number you 
-            will get  a point  as dice{""}
+            will get  a point  {""}
             </p>   
         </div>
       
